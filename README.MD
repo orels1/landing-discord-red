@@ -7,6 +7,53 @@
 I'm creating this pages absolutely free of charge, and if you like them - [consider supporting me on Patreon!](https://patreon.com/orels1) You will also get a role on my discord server, as well as access to all the designs (and their sources) that I make.
 
 ## Usage
+
+#### The simplest way
+We'll be fancy and use Codepen.io!
+
+First, you'll need to [open the pen](http://codepen.io/orels/pen/bgZXNP) and edit everything you need.
+
+You might want to edit text inside the `section` tags, as well as `footer`
+
+##### To change the images - simpli change the urls to them in the `css` section of the editor, on top
+
+`$background` is the main website background  
+`$intro` is the website's blueish section background  
+`$image1` is the first image  
+`$image2` is the second image
+
+##### To add more sections you'll need to do the following:
+
+* Add it to the menu, but adding this code to the `nav.topmenu`
+
+```pug
+a(href="#your_section_name") Your Section
+.line.align-self-center
+```
+
+* Duplicate `section` tag with all it's contents
+* Change image class to `image3`
+* Add new image url to css tab of the editor like this
+
+```sass
+$image3: url('../img/image3.jpg')
+```
+
+* Add new image class to css tab of the editor after the `image2` like this
+
+```sass
+&.image3
+  background-image: $image3
+```
+
+**Make sure your `&.image3` is on the same indentation level as `&.image2`**
+
+
+##### To download final results
+* Click on the `Export` button on the bottom-right and select `Export .zip`
+* Don't forget to create the `img` folder and put all your images in it
+* Upload the `index.html` along with `css` and `img` folders to your server. Everything else is not needed
+
 #### Simple way
 Download the .ZIP archive, extract everything, get the files inside `__build` folder, edit and upload them to your host.
 
