@@ -1,0 +1,21 @@
+{
+  "name": "landing-discord-red",
+  "version": "1.0.0",
+  "description": "A simple and clean discord server landing page",
+  "main": ".",
+  "scripts": {
+    "test": "."
+  },
+  "keywords": [
+    "pug",
+    "sass",
+    "landing",
+    "discord"
+  ],
+  "author": "orels1",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
