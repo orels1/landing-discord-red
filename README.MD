@@ -4,11 +4,11 @@
 >There are never enough landing pages, huh?
 
 ## Support and get design sources!
-I'm creating this pages absolutely free of charge, and if you like them - [consider supporting me on Patreon!](https://patreon.com/orels1) You will also get a role on my discord server, as well as access to all the designs (and their sources) that I make.
+I'm creating these pages absolutely free of charge, and if you like them - [consider supporting me on Patreon!](https://patreon.com/orels1) You will also get a role on my discord server, as well as access to all the designs (and their sources) that I make.
 
 ## Usage
 
-#### The simplest way
+### The simplest way
 We'll be fancy and use Codepen.io!
 
 First, you'll need to [open the pen](http://codepen.io/orels/pen/bgZXNP) and edit everything you need.
@@ -32,6 +32,7 @@ a(href="#your_section_name") Your Section
 ```
 
 * Duplicate `section` tag with all it's contents
+* Change section's ID by typing `#your_section_name` instead of what's in there currently
 * Change image class to `image3`
 * Add new image url to css tab of the editor like this
 
@@ -54,7 +55,7 @@ $image3: url('../img/image3.jpg')
 * Don't forget to create the `img` folder and put all your images in it
 * Upload the `index.html` along with `css` and `img` folders to your server. Everything else is not needed
 
-#### Simple way
+### Simple way
 Download the .ZIP archive, extract everything, get the files inside `__build` folder, edit and upload them to your host.
 
 All the images should be modified inside `styles.css`
@@ -72,7 +73,7 @@ section .image.image3 {
     background-image: url("../img/<your_image_name>"); }
 ```
 
-#### Smart way
+### Smart way
 
 * [Get Node (LTS)](https://nodejs.org)
 * [Get Sass (and Ruby)](http://sass-lang.com/install)
