@@ -6735,7 +6735,9 @@ section .text {
       line-height: 26px;
       color: rgba(255, 255, 255, 0.5);
       margin: 0;
-      padding: 0; }
+      padding: 0;
+      color: #fff;
+      font-weight: 700; }
 section.discord-widget {
   padding: 40px;
   width: 100%; }
