@@ -24,7 +24,7 @@ You might want to edit text inside the `section` tags, as well as `footer`
 
 ##### To add more sections you'll need to do the following:
 
-* Add it to the menu, but adding this code to the `nav.topmenu`
+* Add it to the menu, by adding this code to the `nav.topmenu`
 
 ```pug
 a(href="#your_section_name") Your Section
