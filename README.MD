@@ -15,7 +15,7 @@ First, you'll need to [open the pen](http://codepen.io/orels/pen/bgZXNP) and edi
 
 You might want to edit text inside the `section` tags, as well as `footer`
 
-##### To change the images - simpli change the urls to them in the `css` section of the editor, on top
+##### To change the images - simply change the urls to them in the `css` section of the editor, on top
 
 `$background` is the main website background  
 `$intro` is the website's blueish section background  
